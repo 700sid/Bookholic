@@ -124,20 +124,6 @@ if ($loginst == 1){
 </div>
 
 
-<!-- About us preview-->
-
-<div class="row">
-<div class="about-landing-main"> 
-<img src="css/images/sid.png" alt="about sid card" align="right" class="about-landing" style="margin-left=10%;">
-</div>
-</div>
-
-<div class="row">
-<div class="about-landing-main">
-<img src="css/images/sneha.png" alt="about sneha card" class="about-landing">
-</div></div>
-
-
 
 <div class="row">
         <!-- // -->
@@ -148,7 +134,7 @@ if ($loginst == 1){
                         class="fa fa-facebook-square fa-3x social"></i></a>
                 <a href="https://twitter.com/7__sid"><i id="social-tw"
                         class="fa fa-twitter-square fa-3x social"></i></a>
-                <a href="https://www.instagram.com/7__sid/?hl=en"><i id="social-ig"
+                <a href="https://www.instagram.com/7__sid.py"><i id="social-ig"
                         class="fa fa-instagram fa-3x social"></i></a>
                 <a href="https://github.com/700sid"><i id="social-gh" class="fa fa-github fa-3x social"></i></a><br>
                 &#169; Siddharth & Sneha Kaltari, 2019
