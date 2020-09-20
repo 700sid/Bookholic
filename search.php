@@ -127,7 +127,7 @@ echo '<li class="page-item"><a class="page-link" href="search.php?pageno=',$curr
     <a href="https://www.facebook.com/siddharth.kushwaha.908"><i id="social-fb"
         class="fa fa-facebook-square fa-3x social"></i></a>
     <a href="https://twitter.com/7__sid"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-    <a href="https://www.instagram.com/7__sid/?hl=en"><i id="social-ig"
+    <a href="https://www.instagram.com/7__sid.py"><i id="social-ig"
         class="fa fa-instagram fa-3x social"></i></a>
     <a href="https://github.com/700sid"><i id="social-gh" class="fa fa-github fa-3x social"></i></a><br>
     &#169; Siddharth & Sneha Kaltari, 2019

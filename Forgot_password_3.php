@@ -10,16 +10,15 @@ if(!empty($_SESSION['username'])){ header("location: book.php"); exit(); }
 $DOB = $_POST['DOB'];
 $username = $_GET['username'];
 
-if(empty($DOB))
+
+if(empty($DOB)){
 header("Location: Forgot_password_1.php?somethingwrong=yes");
-exit();
+exit();}
 
 $sql = "SELECT dob FROM user WHERE username='$username'";
 $result = mysqli_query($con,$sql);
 $row = $result->fetch_array();
-
 mysqli_close($con);
-
 if($row[0] == $DOB);
 
 else if(empty($DOB)){
@@ -60,7 +59,7 @@ else {
           </div>
           
           <!-- Login Form -->
-          <form onSubmit="return validate()" action="db/Forgot_password_4.php?username=<?php echo $username; ?>" method="POST">
+          <form onSubmit="return validate()" action="db/Forgot_password_4.php?username=<?php echo $username; ?>&dob=<?php echo $DOB; ?>" method="POST">
             <input type="password" id="password" class="fadeIn third" name="password" placeholder="password" required>
             <input type="password" id="cfm_password" class="fadeIn third" name="cfm_password" placeholder="Confirm password" required>
             <input type="submit" class="fadeIn fourth" value="Submit">
