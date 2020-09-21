@@ -78,7 +78,7 @@ if ($loginst == 1){
                 <a href="https://www.instagram.com/7__sid.py"><i id="social-ig"
                         class="fa fa-instagram fa-3x social"></i></a>
                 <a href="https://github.com/700sid"><i id="social-gh" class="fa fa-github fa-3x social"></i></a><br>
-                &#169; Siddharth & Sneha Kaltari, 2019
+                &#169; Siddharth, 2019
             </div>
         </div>
         <div>

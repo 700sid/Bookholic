@@ -22,5 +22,4 @@ mysqli_close($con);
 
 header("Location: ../login.php?update=done");
 exit();
-
 ?>
